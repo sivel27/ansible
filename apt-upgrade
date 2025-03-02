@@ -6,8 +6,10 @@
   tasks:
     - name: Update apt cache
       apt:
+        become: yes
         update_cache: yes
 
     - name: Upgrade all apt packages
       apt:
+        become: yes
         upgrade: yes
