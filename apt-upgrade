@@ -3,7 +3,7 @@
   gather_facts: yes
   become: yes
   vars:
-   GOTIFY_IP: gotify.fotee.one #[Your gotify host IP goes here]
+   GOTIFY_IP: XXXX #[Your gotify host IP goes here]
    GOTIFY_PORT: XXXX #[Your gotify port goes here]
    GOTIFY_TOKEN: ABCD1234 #[Your app token goes here]
   
